@@ -1,7 +1,10 @@
-<app-header></app-header>
+<body [ngStyle]="{'background-color': backgroundColor}">
+    <app-header></app-header>
 
-<div class="content">
+    <main>
+        <app-logo-windows-microsoft (colorSelected)="changeBackgroundColor($event)"></app-logo-windows-microsoft>
+    </main>
 
-</div>
-
-<app-footer></app-footer>
+    <app-footer></app-footer>
+    
+</body>

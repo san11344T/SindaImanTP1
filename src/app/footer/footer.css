@@ -1,13 +1,6 @@
-:host {
- 
+.footer {
   display: block;
-  background-color: orange;
+  background-color: #ff800f;
   height: 50px;
   width: 100%;
-  text-align: center;
-  line-height: 50px;
-
-   position: fixed;   
-  bottom: 0;         
-  left: 0;
 }
