@@ -1,0 +1,9 @@
+:host {
+  display: block;
+  background-color: purple;
+  color: white;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+}
