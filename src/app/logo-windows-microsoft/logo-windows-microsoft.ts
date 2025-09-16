@@ -8,7 +8,7 @@ import { Component, Output, EventEmitter } from '@angular/core';
 export class LogoWindowsMicrosoft {
   @Output() colorSelected: EventEmitter<string> = new EventEmitter();
 
-  selectColor(color: string) {
+  public selectColor(color: string) {
     this.colorSelected.emit(color);
   }
 }
